@@ -1,0 +1,6 @@
+# Crawl Delay to keep the traffic at a steady stream
+Crawl-delay: 21
+
+# Pages to disallow
+User-agent: *
+Disallow: /
