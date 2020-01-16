@@ -5,7 +5,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
 <head>
     <meta charset="UTF-8">
-    <title>Hostplus Digital Styleguide</title>
+    <title>Components | Hostplus Digital Styleguide</title>
     <!-- <link rel="icon" type="image/png" href="./img/favicon.ico"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--
@@ -41,7 +41,7 @@
     */
     -->
     
-    <link rel="stylesheet" href="./css/styleguide-styles.min.css"/>
+    <link rel="stylesheet" href="../css/styleguide-styles.min.css"/>
     
     <!--[if lt IE 9]>
         <script src='//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
@@ -52,13 +52,13 @@
 <!--[if gte mso 9]><xml>
 <mso:CustomDocumentProperties>
 <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Jason Lim</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
-<mso:Order msdt:dt="string">47200.0000000000</mso:Order>
+<mso:Order msdt:dt="string">47000.0000000000</mso:Order>
 <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Jason Lim</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
 <mso:ContentTypeId msdt:dt="string">0x0101008260611AB885EA4A835CED021F89286A</mso:ContentTypeId>
 </mso:CustomDocumentProperties>
 </xml><![endif]-->
 </head>
-<body class="styleguide ">
+<body class="styleguide components">
     <!--[if lt IE 8]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -70,15 +70,15 @@
 			<button type="button" id="toggle-menu-mobile" class="navbar-toggle toggle-menu collapsed" data-toggle="collapse" data-target="#site-nav" aria-label="Toggle Navigation" aria-expanded="false">
                 <span class="burger-lines"></span>
             </button>
-			<a href="#" class="navbar-brand" title="Back to styleguide home">
-				<img src="img/logo-small.png" alt="Hostplus blue logo" class="logo-image logo-image-small" />
+			<a href="../index.html" class="navbar-brand" title="Back to styleguide home">
+				<img src="../img/logo-small.png" alt="Hostplus blue logo" class="logo-image logo-image-small" />
                 <span>Digital Styleguide</span>
             </a>
 		</div>
 		<nav id="site-nav" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 	<li>
-		<a href="#" class="megamenu-btn">Home</a>
+		<a href="../index.html" class="megamenu-btn">Home</a>
 	</li>
 	<li class="dropdown">
 		
@@ -270,85 +270,81 @@
 </header>
 
         <main class="main">
-            <div class="container">
+            
+
+<div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-			<h1>Welcome</h1>
 
-			<div class="wysiwyg">
 
-				<p>Our identity consists of a set of design elements that work together to create a distinctive look and feel, making the Hostplus brand instantly recognisable. All design elements work together to capture the essence of who we are - energetic, dynamic, intuitive and curious.</p>
-				<p>Our digital style guide is designed to  ensure the Hostplus look and feel remains consistent online, and should directly inform how we look, sound and behave.</p>
+	
 
-			</div>
+		<h1>Components</h1>
+
+		<p>Below is each component that makes up the Hostplus website. They can be used as standalone UI items or assembled together to make more complex UI <a href="modules.html">modules</a>.</p>
+
+		<ul class="list-unstyled item-list">
+		
+			<li>
+				<a href="components/Buttons.html" class="link-internal">Buttons</a>
+			</li>
+		
+			<li>
+				<a href="components/Colours.html" class="link-internal">Colours</a>
+			</li>
+		
+			<li>
+				<a href="components/Icons-and-Illustrations.html" class="link-internal">Icons and Illustrations</a>
+			</li>
+		
+			<li>
+				<a href="components/iFrames.html" class="link-internal">iFrames</a>
+			</li>
+		
+			<li>
+				<a href="components/Images.html" class="link-internal">Images</a>
+			</li>
+		
+			<li>
+				<a href="components/Links.html" class="link-internal">Links</a>
+			</li>
+		
+			<li>
+				<a href="components/Lists.html" class="link-internal">Lists</a>
+			</li>
+		
+			<li>
+				<a href="components/Tables.html" class="link-internal">Tables</a>
+			</li>
+		
+			<li>
+				<a href="components/Typography.html" class="link-internal">Typography</a>
+			</li>
+		
+			<li>
+				<a href="components/Video.html" class="link-internal">Video</a>
+			</li>
+		
+		</ul>
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
 
 		</div>
 	</div>
 </div>
-
-<section class="tiles tiles-landing">
-    <div class="container">
-        <div class="row">
-            <div class="tile tile-image hidden-xs">
-                <img src="img/tiles/tile-magnifying-glass.png" class="tile-inner">
-            </div>
-            <a href="./pages/components.html" class="tile tile-yellow-light">
-                <div class="tile-inner">
-                    <h2>Components</h2>
-                    <svg class="icon icon-accordion-right">
-                        <use xlink:href="#icon-carret-right"></use>
-                    </svg>
-                    <div class="tile-content">
-                    	<p>Assembled to make up pages of the Hostplus website.</p>
-                        <span class="btn btn-secondary">Learn more</span>
-                    </div>
-                </div>
-            </a>
-            <a href="./pages/modules.html" class="tile tile-yellow-dark">
-                <div class="tile-inner">
-                    <h2>Modules</h2>
-                    <svg class="icon icon-accordion-right">
-                        <use xlink:href="#icon-carret-right"></use>
-                    </svg>
-                    <div class="tile-content">
-                    	<p>Used to display or highlight content.</p>
-                        <span class="btn btn-secondary">Learn more</span>
-                    </div>
-                </div>
-            </a>
-            <a href="./pages/sections.html" class="tile tile-yellow-light">
-                <div class="tile-inner">
-                    <h2>Sections</h2>
-                    <svg class="icon icon-accordion-right">
-                        <use xlink:href="#icon-carret-right"></use>
-                    </svg>
-
-                    <div class="tile-content">
-                    	<p>Applied to every page on the Hostplus website.</p>
-                        <span class="btn btn-secondary">Learn more</span>
-                    </div>
-                </div>
-            </a>
-            <a href="./pages/templates.html" class="tile tile-yellow-dark">
-                <div class="tile-inner">
-                    <h2>Templates</h2>
-                    <svg class="icon icon-accordion-right">
-                        <use xlink:href="#icon-carret-right"></use>
-                    </svg>
-
-                    <div class="tile-content">
-                    	<p>Designed to make it easier to add extra pages to the website.</p>
-                        <span class="btn btn-secondary">Learn more</span>
-                    </div>
-                </div>
-            </a>
-            <div class="tile tile-image hidden-xs">
-                <img src="img/tiles/tile-document-pencil.png" class="tile-inner">
-            </div>
-        </div>
-    </div>
-</section>
-
         </main>
         <section class="back-to-top hidden-print">
     <div class="container-fluid">
